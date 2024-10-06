@@ -1,0 +1,14 @@
+There are some variations on the preceding use case where futures are the best tool for the job. 
+In general the use cases have one or more of the following characteristics:
+
+    -   You don’t want to block (wait on the current thread) to handle the result of a function.
+    
+    -   Calling a function once-off and handling the result at some point in the future.
+    
+    -   Combining many once-off functions and combining the results.
+
+    -   Calling many competing functions and only using some of the results, for instance only the fastest response.
+
+    -   Calling a function and returning a default result when the function throws an exception so the flow can continue.
+
+    -   Pipelining these kind of functions, where one function depends on one or more results of other functions.

@@ -1,0 +1,23 @@
+Possible way
+
+    valid
+
+        FutureActor could create a new thread for long-run computation, and it could be terminated by Thread.stop()
+
+
+        To DO => Done
+            let worker actor to create a new thread for running the code block (and use thread.stop to stop it when necessary)
+    
+
+    invalid (currently)
+
+        CustomPinnedDispatcher => not working
+
+        CustomThreadPoolExecutor => not working 
+
+incorrect way (probably)
+
+    Modifying PreStart for futureActor
+
+    Modifying Supervision strategy
+

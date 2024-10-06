@@ -1,0 +1,11 @@
+1. Let actor be the Working Thread that 'Future' does.
+    
+    -   Atomic action: processing a message
+        -   Actor cannot be suspended
+        -   Actor cannot be killed
+
+    -   Directly accessing an actor’s mailbox would violate these principles
+        -   Actor is a just a data structure
+        -   value in its mailbox is the input of its receive function
+    
+    
