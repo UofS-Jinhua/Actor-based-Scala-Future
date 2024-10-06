@@ -6,7 +6,7 @@ Full text Online: https://harvest.usask.ca/items/22e8f482-9ae4-426b-8389-c70ad1e
 
 ## Thesis Overview
 
-In this thesis, I explore the challenges and solutions associated with mixing different concurrency models in Scala. The primary focus is on implementing futures using a pure actor model to achieve better concurrency and performance.
+In this thesis, I explore the challenges and solutions associated with mixing different concurrency models in Scala. The primary focus is on implementing futures using the pure Actor Model to achieve better concurrency and performance.
 
 ## Repository Contents
 
